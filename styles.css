@@ -130,6 +130,7 @@ section {
     box-shadow: 0px 0px 10px rgba(0, 255, 204, 0.5);
 }
 
+
 .project h3 {
     margin-bottom: 10px;
     color: #00ffcc;
@@ -191,7 +192,6 @@ footer .social-links a:hover {
 
 }
 
-/* ریسپانسیو */
 @media (max-width: 768px) {
     header h1 {
         font-size: 2.5rem;
@@ -204,8 +204,15 @@ footer .social-links a:hover {
     .project-list {
         flex-direction: column;
     }
-
     .project {
-        width: 100%;
+        background-color: #1a1a1a;
+        border: 1px solid #00ffcc;
+        padding: 20px;
+        margin-bottom: 10px;
+        /* width: 100%; */
+        border-radius: 8px;
+        transition: 0.3s;
+        box-shadow: 0px 0px 10px rgba(0, 255, 204, 0.5);
     }
+    
 }
